@@ -35,6 +35,7 @@
 - [墨忆江南 的 GitHub](https://github.com/Dongyifengs)
 
 ## ⚖️ 开源协议
-- 本项目是面向大众的，所以我们会进行开源,请遵循相关开源协议 [Apache License 2.0](https://github.com/dongyifengs/mihoyo-material/LICENSE) 的规则.
+- 本项目是面向大众的，所以我们会进行开源,请遵循相关开源协议 [BSL-1.0](https://github.com/dongyifengs/mihoyo-material/LICENSE) 的规则.
+- 在BSL-1.0的基础上,禁止将本项目进行商业用途.
 - 众人拾柴火焰高，开源需要依靠大家的努力，请自觉遵守开源协议，弘扬开源精神，共建开源社区！
-- 仅供学习使用,请在24小时内删除,若有侵权请联系mail`1545929126@qq.com`
+- 仅供学习使用,请在24小时内删除,若有侵权请联系mail`1545929126@qq.com`.
