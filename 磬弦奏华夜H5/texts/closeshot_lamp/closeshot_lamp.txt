@@ -1,0 +1,1 @@
+closeshot_lamp.png\nsize:904,409\nfilter:Linear,Linear\nscale:0.5\nC灯bg\nbounds:838,261,146,64\noffsets:0,1,146,65\nrotate:90\nC灯光晕\nbounds:2,12,487,395\noffsets:0,2,488,398\nC灯本体\nbounds:491,2,405,345\nrotate:90\nC灯火\nbounds:838,214,45,44\noffsets:0,1,46,46\nrotate:90\n

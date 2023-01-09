@@ -1,0 +1,30 @@
+FS_White.png
+	size: 256, 256
+	filter: Linear, Linear
+	pma: true
+White/arm
+	bounds: 143, 156, 111, 98
+White/arm 2
+	bounds: 95, 36, 46, 79
+White/body
+	bounds: 2, 12, 91, 103
+White/eyes
+	bounds: 195, 87, 67, 31
+	rotate: 90
+White/eyes blink
+	bounds: 228, 87, 67, 22
+	rotate: 90
+White/feet
+	bounds: 95, 2, 50, 32
+White/feet 2
+	bounds: 193, 58, 55, 27
+White/hand
+	bounds: 147, 9, 32, 28
+White/head 1
+	bounds: 2, 117, 139, 137
+White/leg
+	bounds: 143, 39, 48, 55
+White/leg 2
+	bounds: 143, 96, 50, 58
+White/mouth
+	bounds: 193, 35, 28, 21

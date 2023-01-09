@@ -1,0 +1,655 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'zh' Physical Memory: 16235 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/15459/Desktop/web/mihoyo-material/Unity/Mihoyo
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50499
+Successfully changed project path to: C:/Users/15459/Desktop/web/mihoyo-material/Unity/Mihoyo
+C:/Users/15459/Desktop/web/mihoyo-material/Unity/Mihoyo
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [29316] Host "[IP] 192.168.10.6 [Port] 0 [Flags] 2 [Guid] 2293176009 [EditorId] 2293176009 [Version] 1048832 [Id] WindowsEditor(7,MoYi-Book) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [29316] Host "[IP] 192.168.10.6 [Port] 0 [Flags] 2 [Guid] 2293176009 [EditorId] 2293176009 [Version] 1048832 [Id] WindowsEditor(7,MoYi-Book) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 140.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/15459/Desktop/web/mihoyo-material/Unity/Mihoyo/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25e5)
+    Vendor:   NVIDIA
+    VRAM:     3977 MB
+    Driver:   31.0.15.2756
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files/Unity/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003072 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 182.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.356 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1357ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (979ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (252ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (583ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (182ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (283ms)
+				ProcessInitializeOnLoadMethodAttributes (104ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009882 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\15459\Desktop\web\mihoyo-material\Unity\Mihoyo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\15459\Desktop\web\mihoyo-material\Unity\Mihoyo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.780 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1782ms)
+		BeginReloadAssembly (160ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1451ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (471ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (138ms)
+			SetupLoadedEditorAssemblies (636ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (156ms)
+				ProcessInitializeOnLoadAttributes (424ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3627 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (1.5 MB). Loaded Objects now: 4070.
+Memory consumption went from 139.1 MB to 137.6 MB.
+Total: 8.246400 ms (FindLiveObjects: 0.388800 ms CreateObjectMapping: 0.280100 ms MarkObjects: 5.532700 ms  DeleteObjects: 2.042600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 150689.439969 seconds.
+  path: Assets/Editor/SpineSettings.asset
+  artifactKey: Guid(f79d6b575097c9a4c91f5f7077c474d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/SpineSettings.asset using Guid(f79d6b575097c9a4c91f5f7077c474d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7177b4a1abf280b62add7319edf4a336') in 0.051317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.728253 seconds.
+  path: Assets/Editor/shenlilinghua.png
+  artifactKey: Guid(523fe1c1298d40441a5f8fd8aa15d6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/shenlilinghua.png using Guid(523fe1c1298d40441a5f8fd8aa15d6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263d200134e583cebe2b488cf133f0be') in 0.171807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.095571 seconds.
+  path: Assets/Editor/shenlilinghua.json
+  artifactKey: Guid(3028979d62801804aab47f992bb37621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/shenlilinghua.json using Guid(3028979d62801804aab47f992bb37621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8215caf0c67c19bf26f9c7d98cf1a711') in 0.018262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.273847 seconds.
+  path: Assets/Editor/shenlilinghua.atlas.txt
+  artifactKey: Guid(35b24afb4a340274d9c515b888961d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/shenlilinghua.atlas.txt using Guid(35b24afb4a340274d9c515b888961d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f763b8a5d00fea5cbf9a8dca93f02538') in 0.017170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 86.886714 seconds.
+  path: Assets/Editor/shenlilinghua_SkeletonData.asset
+  artifactKey: Guid(ef85d0a7b783c9349a17fbf9758aff3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/shenlilinghua_SkeletonData.asset using Guid(ef85d0a7b783c9349a17fbf9758aff3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 进程外导入时不支持 CreateSerializedAsset
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Spine.Unity.Editor.SpinePreferences:GetOrCreateSettings () (at Assets/Spine/Editor/spine-unity/Editor/Windows/SpinePreferences.cs:211)
+Spine.Unity.Editor.SpinePreferences:Load () (at Assets/Spine/Editor/spine-unity/Editor/Windows/SpinePreferences.cs:190)
+Spine.Unity.Editor.SpineEditorUtilities:Initialize () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:170)
+Spine.Unity.Editor.SpineEditorUtilities:ConfirmInitialization () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:237)
+Spine.Unity.Editor.SkeletonDataAssetInspector:InitializeEditor () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:105)
+Spine.Unity.Editor.SkeletonDataAssetInspector:OnEnable () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:84)
+UnityEditor.Editor:CreateEditorWithContext (UnityEngine.Object[],UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[Assets/Spine/Editor/spine-unity/Editor/Windows/SpinePreferences.cs line 211]
+
+UnityException: Creating asset at path Assets/Editor/SpineSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at Spine.Unity.Editor.SpinePreferences.GetOrCreateSettings () [0x00090] in C:\Users\15459\Desktop\web\mihoyo-material\Unity\Mihoyo\Assets\Spine\Editor\spine-unity\Editor\Windows\SpinePreferences.cs:211 
+  at Spine.Unity.Editor.SpinePreferences.Load () [0x00000] in C:\Users\15459\Desktop\web\mihoyo-material\Unity\Mihoyo\Assets\Spine\Editor\spine-unity\Editor\Windows\SpinePreferences.cs:190 
+  at Spine.Unity.Editor.SpineEditorUtilities.Initialize () [0x00000] in C:\Users\15459\Desktop\web\mihoyo-material\Unity\Mihoyo\Assets\Spine\Editor\spine-unity\Editor\Utility\SpineEditorUtilities.cs:170 
+  at Spine.Unity.Editor.SpineEditorUtilities.ConfirmInitialization () [0x00014] in C:\Users\15459\Desktop\web\mihoyo-material\Unity\Mihoyo\Assets\Spine\Editor\spine-unity\Editor\Utility\SpineEditorUtilities.cs:237 
+  at Spine.Unity.Editor.SkeletonDataAssetInspector.InitializeEditor () [0x00000] in C:\Users\15459\Desktop\web\mihoyo-material\Unity\Mihoyo\Assets\Spine\Editor\spine-unity\Editor\Asset Types\SkeletonDataAssetInspector.cs:105 
+  at Spine.Unity.Editor.SkeletonDataAssetInspector.OnEnable () [0x00000] in C:\Users\15459\Desktop\web\mihoyo-material\Unity\Mihoyo\Assets\Spine\Editor\spine-unity\Editor\Asset Types\SkeletonDataAssetInspector.cs:84 
+UnityEditor.Editor:CreateEditorWithContextInternal(Object[], Object, Type)
+UnityEditor.Editor:CreateEditorWithContext(Object[], Object, Type)
+UnityEditor.Editor:CreateEditor(Object, Type)
+UnityEditor.Editor:CreateEditor(Object)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Spine/Editor/spine-unity/Editor/Windows/SpinePreferences.cs Line: 211)
+
+ -> (artifact id: 'a9826a80370062f2fa1ea6c401b73a18') in 0.062275 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008071 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\15459\Desktop\web\mihoyo-material\Unity\Mihoyo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\15459\Desktop\web\mihoyo-material\Unity\Mihoyo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.017 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2018ms)
+		BeginReloadAssembly (170ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1648ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (529ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (793ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (242ms)
+				ProcessInitializeOnLoadAttributes (463ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3594 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.5 MB). Loaded Objects now: 4077.
+Memory consumption went from 136.6 MB to 135.1 MB.
+Total: 4.844200 ms (FindLiveObjects: 0.293800 ms CreateObjectMapping: 0.143900 ms MarkObjects: 3.444600 ms  DeleteObjects: 0.960000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006882 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\15459\Desktop\web\mihoyo-material\Unity\Mihoyo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\15459\Desktop\web\mihoyo-material\Unity\Mihoyo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.720 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1721ms)
+		BeginReloadAssembly (209ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (1345ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (481ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (572ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (390ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3594 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.4 MB). Loaded Objects now: 4080.
+Memory consumption went from 136.5 MB to 135.0 MB.
+Total: 5.416800 ms (FindLiveObjects: 0.326900 ms CreateObjectMapping: 0.162100 ms MarkObjects: 3.731200 ms  DeleteObjects: 1.194600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007954 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\15459\Desktop\web\mihoyo-material\Unity\Mihoyo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\15459\Desktop\web\mihoyo-material\Unity\Mihoyo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.394 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2395ms)
+		BeginReloadAssembly (212ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (2014ms)
+			LoadAssemblies (130ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (521ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (118ms)
+			SetupLoadedEditorAssemblies (1046ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (69ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (231ms)
+				ProcessInitializeOnLoadAttributes (668ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3594 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.4 MB). Loaded Objects now: 4083.
+Memory consumption went from 136.5 MB to 135.0 MB.
+Total: 6.272300 ms (FindLiveObjects: 0.388600 ms CreateObjectMapping: 0.218900 ms MarkObjects: 3.952600 ms  DeleteObjects: 1.710000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005132 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\15459\Desktop\web\mihoyo-material\Unity\Mihoyo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\15459\Desktop\web\mihoyo-material\Unity\Mihoyo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.121 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2122ms)
+		BeginReloadAssembly (216ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (1699ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (605ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (157ms)
+			SetupLoadedEditorAssemblies (623ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (416ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3594 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.4 MB). Loaded Objects now: 4086.
+Memory consumption went from 136.5 MB to 135.1 MB.
+Total: 5.225500 ms (FindLiveObjects: 0.398500 ms CreateObjectMapping: 0.464900 ms MarkObjects: 3.180500 ms  DeleteObjects: 1.179900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 565.295393 seconds.
+  path: Assets/Editor/SLLH.png
+  artifactKey: Guid(0593e03aaa5480f46bcf0d602b18771a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/SLLH.png using Guid(0593e03aaa5480f46bcf0d602b18771a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e3cd2a8bfa7bb0e3d3e764c6e9448d') in 0.122650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Editor/SLLH_Material.mat
+  artifactKey: Guid(f36e1af771a87c843b761cdfae0851c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/SLLH_Material.mat using Guid(f36e1af771a87c843b761cdfae0851c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '110cd681fae79871cc1b199fc8d09423') in 0.183953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 208.717113 seconds.
+  path: Assets/Editor/SLLH.json
+  artifactKey: Guid(4023e7ef2a065c84bb299d51b28a78eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/SLLH.json using Guid(4023e7ef2a065c84bb299d51b28a78eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ba8e8fcab23d153fa5afd253812e69') in 0.003557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 115.756611 seconds.
+  path: Assets/Editor/lisha_LX.mat
+  artifactKey: Guid(f08052c9ba6eccb4db980d2852c33dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/lisha_LX.mat using Guid(f08052c9ba6eccb4db980d2852c33dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45595065a444914512c82c2f2c985517') in 0.100637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Editor/LX.png
+  artifactKey: Guid(48de4735c56d24446b5c689e6a41400d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/LX.png using Guid(48de4735c56d24446b5c689e6a41400d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63667428246080ea7863ea610a6ee646') in 0.111896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Editor/lisha_SkeletonData.asset
+  artifactKey: Guid(072414958f022c04788851eb2fa8f635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/lisha_SkeletonData.asset using Guid(072414958f022c04788851eb2fa8f635) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 进程外导入时不支持 CreateSerializedAsset
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Spine.Unity.Editor.SpinePreferences:GetOrCreateSettings () (at Assets/Spine/Editor/spine-unity/Editor/Windows/SpinePreferences.cs:211)
+Spine.Unity.Editor.SpinePreferences:Load () (at Assets/Spine/Editor/spine-unity/Editor/Windows/SpinePreferences.cs:190)
+Spine.Unity.Editor.SpineEditorUtilities:Initialize () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:170)
+Spine.Unity.Editor.SpineEditorUtilities:ConfirmInitialization () (at Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs:237)
+Spine.Unity.Editor.SkeletonDataAssetInspector:InitializeEditor () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:105)
+Spine.Unity.Editor.SkeletonDataAssetInspector:OnEnable () (at Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs:84)
+UnityEditor.Editor:CreateEditorWithContext (UnityEngine.Object[],UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[Assets/Spine/Editor/spine-unity/Editor/Windows/SpinePreferences.cs line 211]
+
+UnityException: Creating asset at path Assets/Editor/SpineSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at Spine.Unity.Editor.SpinePreferences.GetOrCreateSettings () [0x00090] in C:\Users\15459\Desktop\web\mihoyo-material\Unity\Mihoyo\Assets\Spine\Editor\spine-unity\Editor\Windows\SpinePreferences.cs:211 
+  at Spine.Unity.Editor.SpinePreferences.Load () [0x00000] in C:\Users\15459\Desktop\web\mihoyo-material\Unity\Mihoyo\Assets\Spine\Editor\spine-unity\Editor\Windows\SpinePreferences.cs:190 
+  at Spine.Unity.Editor.SpineEditorUtilities.Initialize () [0x00000] in C:\Users\15459\Desktop\web\mihoyo-material\Unity\Mihoyo\Assets\Spine\Editor\spine-unity\Editor\Utility\SpineEditorUtilities.cs:170 
+  at Spine.Unity.Editor.SpineEditorUtilities.ConfirmInitialization () [0x00014] in C:\Users\15459\Desktop\web\mihoyo-material\Unity\Mihoyo\Assets\Spine\Editor\spine-unity\Editor\Utility\SpineEditorUtilities.cs:237 
+  at Spine.Unity.Editor.SkeletonDataAssetInspector.InitializeEditor () [0x00000] in C:\Users\15459\Desktop\web\mihoyo-material\Unity\Mihoyo\Assets\Spine\Editor\spine-unity\Editor\Asset Types\SkeletonDataAssetInspector.cs:105 
+  at Spine.Unity.Editor.SkeletonDataAssetInspector.OnEnable () [0x00000] in C:\Users\15459\Desktop\web\mihoyo-material\Unity\Mihoyo\Assets\Spine\Editor\spine-unity\Editor\Asset Types\SkeletonDataAssetInspector.cs:84 
+UnityEditor.Editor:CreateEditorWithContextInternal(Object[], Object, Type)
+UnityEditor.Editor:CreateEditorWithContext(Object[], Object, Type)
+UnityEditor.Editor:CreateEditor(Object, Type)
+UnityEditor.Editor:CreateEditor(Object)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/Spine/Editor/spine-unity/Editor/Windows/SpinePreferences.cs Line: 211)
+
+ -> (artifact id: '01dc75d8ba3499aab01220a354a971e8') in 0.129155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2567.873060 seconds.
+  path: Assets/Editor/lisha_L_腿.mat
+  artifactKey: Guid(116dd4f23d92c7b4b9da826af615ada5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/lisha_L_腿.mat using Guid(116dd4f23d92c7b4b9da826af615ada5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b299ad5a42b9f2c02a3c69359a4e596') in 0.131564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.126014 seconds.
+  path: Assets/Editor/lisha_L_腿.mat
+  artifactKey: Guid(116dd4f23d92c7b4b9da826af615ada5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/lisha_L_腿.mat using Guid(116dd4f23d92c7b4b9da826af615ada5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '166eaacec64a71afb94179e6c32fe383') in 0.031074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 142.903416 seconds.
+  path: Assets/Editor/lisha_LX_2.mat
+  artifactKey: Guid(a5ae5aab901ab1e458b39983b5bc1740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/lisha_LX_2.mat using Guid(a5ae5aab901ab1e458b39983b5bc1740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ac968234a74bbbb94d9299b79d6390') in 0.018987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 119.855339 seconds.
+  path: Assets/Editor/lisha_L_腿.mat
+  artifactKey: Guid(116dd4f23d92c7b4b9da826af615ada5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/lisha_L_腿.mat using Guid(116dd4f23d92c7b4b9da826af615ada5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7338a0c18ca2e117c9fd9e38afb965ec') in 0.036628 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005744 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\15459\Desktop\web\mihoyo-material\Unity\Mihoyo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\15459\Desktop\web\mihoyo-material\Unity\Mihoyo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.533 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1535ms)
+		BeginReloadAssembly (357ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (177ms)
+		EndReloadAssembly (1054ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (382ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (459ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (317ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3594 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.4 MB). Loaded Objects now: 4130.
+Memory consumption went from 141.0 MB to 139.6 MB.
+Total: 5.569100 ms (FindLiveObjects: 0.393700 ms CreateObjectMapping: 0.250800 ms MarkObjects: 3.756300 ms  DeleteObjects: 1.166500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005717 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\15459\Desktop\web\mihoyo-material\Unity\Mihoyo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\15459\Desktop\web\mihoyo-material\Unity\Mihoyo\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.680 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1681ms)
+		BeginReloadAssembly (187ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1340ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (509ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (550ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (380ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3595 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.5 MB). Loaded Objects now: 4134.
+Memory consumption went from 141.2 MB to 139.7 MB.
+Total: 5.477300 ms (FindLiveObjects: 0.387900 ms CreateObjectMapping: 0.242800 ms MarkObjects: 3.493300 ms  DeleteObjects: 1.351000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
