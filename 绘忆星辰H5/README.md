@@ -1,1 +1,0 @@
-- [绘忆星辰H5对应链接](https://webstatic.mihoyo.com/ys/event/e20220928review_data/index.html?game_biz=hk4e_cn&mhy_presentation_style=fullscreen&mhy_auth_required=true&mhy_landscape=true&mhy_hide_status_bar=true&utm_source=bbs&utm_medium=mys&utm_campaign=search)
