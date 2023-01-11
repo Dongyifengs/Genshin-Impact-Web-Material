@@ -1,1 +1,0 @@
-- [磬弦奏华夜H5对应链接](https://webstatic.mihoyo.com/ys/event/e20230107preview-x2wqn1/index.html?game_biz=hk4e_cn&mhy_presentation_style=fullscreen&mhy_landscape=true&mhy_hide_status_bar=true&utm_source=bbs&utm_medium=mys&utm_campaign=banner)
