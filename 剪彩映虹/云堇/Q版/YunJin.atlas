@@ -1,0 +1,251 @@
+pop_yunjin.png
+size:688,523
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+scale:0.29
+11领子
+rotate: false
+xy: 387, 16
+size: 92, 74
+orig: 92, 74
+offset: 0, 0
+index: -1
+后发1
+rotate: false
+xy: 487, 89
+size: 97, 210
+orig: 97, 210
+offset: 0, 0
+index: -1
+后发2
+rotate: false
+xy: 586, 165
+size: 67, 140
+orig: 67, 140
+offset: 0, 0
+index: -1
+后发3
+rotate: false
+xy: 2, 30
+size: 62, 108
+orig: 62, 108
+offset: 0, 0
+index: -1
+后发4
+rotate: false
+xy: 523, 369
+size: 96, 152
+orig: 96, 152
+offset: 0, 0
+index: -1
+头发1
+rotate: false
+xy: 286, 301
+size: 235, 220
+orig: 235, 220
+offset: 0, 0
+index: -1
+帽
+rotate: false
+xy: 2, 284
+size: 282, 237
+orig: 282, 237
+offset: 0, 0
+index: -1
+帽2
+rotate: false
+xy: 621, 369
+size: 65, 152
+orig: 65, 152
+offset: 0, 0
+index: -1
+手
+rotate: false
+xy: 66, 38
+size: 70, 100
+orig: 70, 100
+offset: 0, 0
+index: -1
+手_镜子
+rotate: false
+xy: 580, 20
+size: 43, 67
+orig: 43, 67
+offset: 0, 0
+index: -1
+手粉
+rotate: false
+xy: 625, 121
+size: 37, 42
+orig: 37, 42
+offset: 0, 0
+index: -1
+手臂l
+rotate: false
+xy: 286, 15
+size: 99, 75
+orig: 99, 75
+offset: 0, 0
+index: -1
+眉毛
+rotate: false
+xy: 387, 4
+size: 104, 10
+orig: 104, 10
+offset: 0, 0
+index: -1
+眼框l
+rotate: false
+xy: 233, 141
+size: 48, 45
+orig: 48, 45
+offset: 0, 0
+index: -1
+眼框r
+rotate: false
+xy: 481, 43
+size: 60, 44
+orig: 60, 44
+offset: 0, 0
+index: -1
+眼白l
+rotate: false
+xy: 233, 96
+size: 48, 43
+orig: 48, 43
+offset: 0, 0
+index: -1
+眼白r
+rotate: false
+xy: 221, 50
+size: 63, 44
+orig: 63, 44
+offset: 0, 0
+index: -1
+眼睛闭上
+rotate: false
+xy: 66, 4
+size: 153, 32
+orig: 153, 32
+offset: 0, 0
+index: -1
+瞳孔l
+rotate: false
+xy: 493, 6
+size: 27, 35
+orig: 27, 35
+offset: 0, 0
+index: -1
+瞳孔r
+rotate: false
+xy: 586, 130
+size: 35, 33
+orig: 35, 33
+offset: 0, 0
+index: -1
+脸
+rotate: false
+xy: 286, 92
+size: 199, 207
+orig: 199, 207
+offset: 0, 0
+index: -1
+身体
+rotate: false
+xy: 138, 41
+size: 81, 97
+orig: 81, 97
+offset: 0, 0
+index: -1
+领子1
+rotate: false
+xy: 523, 301
+size: 39, 66
+orig: 39, 66
+offset: 0, 0
+index: -1
+领子1s
+rotate: false
+xy: 522, 11
+size: 19, 30
+orig: 19, 30
+offset: 0, 0
+index: -1
+领子2
+rotate: false
+xy: 625, 312
+size: 38, 55
+orig: 38, 55
+offset: 0, 0
+index: -1
+领子2s
+rotate: false
+xy: 586, 94
+size: 22, 34
+orig: 22, 34
+offset: 0, 0
+index: -1
+领子b2
+rotate: false
+xy: 564, 307
+size: 59, 60
+orig: 59, 60
+offset: 0, 0
+index: -1
+饰品1
+rotate: false
+xy: 2, 140
+size: 229, 142
+orig: 229, 142
+offset: 0, 0
+index: -1
+饰品2
+rotate: false
+xy: 543, 13
+size: 35, 74
+orig: 35, 74
+offset: 0, 0
+index: -1
+饰品a0
+rotate: false
+xy: 233, 188
+size: 46, 94
+orig: 46, 94
+offset: 0, 0
+index: -1
+饰品a1
+rotate: false
+xy: 221, 2
+size: 29, 46
+orig: 29, 46
+offset: 0, 0
+index: -1
+饰品a2
+rotate: false
+xy: 252, 6
+size: 26, 42
+orig: 26, 42
+offset: 0, 0
+index: -1
+高光l
+rotate: false
+xy: 221, 117
+size: 9, 9
+orig: 9, 9
+offset: 0, 0
+index: -1
+高光r
+rotate: false
+xy: 221, 128
+size: 10, 10
+orig: 10, 10
+offset: 0, 0
+index: -1
+鼻子嘴
+rotate: false
+xy: 2, 5
+size: 26, 23
+orig: 26, 23
+offset: 0, 0
+index: -1

@@ -9,6 +9,10 @@
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/dongyifengs/mihoyo-material/main?style=for-the-badge">
 </div>
 
+## 通知
+ - 目前`剪彩映虹`游戏H5因为本人等级不够的原因下载不了后面的素材文件,所以先上传部分文件,等待后续解锁完成后即可浏览所有素材
+ 
+
 ## ✨ mihoyo-material是什么项目？
 - `mihoyo-material`是一个原神活动H5页面上有关Spine动效整理
 - 里面包含`有关当前H5页面所有的素材文件`,`Spine`,`atlas`文件的提供

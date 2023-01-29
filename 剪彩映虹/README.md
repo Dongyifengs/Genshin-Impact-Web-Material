@@ -1,0 +1,1 @@
+ - [剪彩映虹[请使用F12调试到手机模式]](https://webstatic.mihoyo.com/ys/event/e20230129-lantern-vqhoj8/index.html)

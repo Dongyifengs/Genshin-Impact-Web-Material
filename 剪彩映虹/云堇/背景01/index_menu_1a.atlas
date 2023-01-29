@@ -1,0 +1,286 @@
+index_menu_1a.png
+size:1673,714
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+scale:0.4
+上身
+rotate: false
+xy: 1122, 33
+size: 88, 111
+orig: 88, 111
+offset: 0, 0
+index: -1
+上身坠子1
+rotate: false
+xy: 1089, 263
+size: 30, 29
+orig: 30, 29
+offset: 0, 0
+index: -1
+上身坠子2
+rotate: false
+xy: 1590, 432
+size: 24, 34
+orig: 24, 34
+offset: 0, 0
+index: -1
+下裙
+rotate: false
+xy: 800, 171
+size: 287, 174
+orig: 287, 174
+offset: 0, 0
+index: -1
+下裙坠子01
+rotate: false
+xy: 731, 33
+size: 50, 37
+orig: 50, 37
+offset: 0, 0
+index: -1
+下裙坠子02
+rotate: false
+xy: 1446, 425
+size: 46, 41
+orig: 46, 41
+offset: 0, 0
+index: -1
+下裙坠子03
+rotate: false
+xy: 506, 2
+size: 38, 31
+orig: 38, 31
+offset: 0, 0
+index: -1
+下裙坠子04
+rotate: false
+xy: 1616, 433
+size: 38, 33
+orig: 38, 33
+offset: 0, 0
+index: -1
+云瑾a
+rotate: false
+xy: 2, 8
+size: 502, 704
+orig: 502, 704
+offset: 0, 0
+index: -1
+刘海01
+rotate: false
+xy: 1348, 39
+size: 46, 213
+orig: 46, 213
+offset: 0, 0
+index: -1
+刘海02
+rotate: false
+xy: 977, 40
+size: 64, 129
+orig: 64, 129
+offset: 0, 0
+index: -1
+刘海03
+rotate: false
+xy: 1122, 146
+size: 224, 277
+orig: 224, 277
+offset: 0, 0
+index: -1
+刘海04
+rotate: false
+xy: 796, 17
+size: 89, 152
+orig: 89, 152
+offset: 0, 0
+index: -1
+刘海05
+rotate: false
+xy: 887, 31
+size: 88, 138
+orig: 88, 138
+offset: 0, 0
+index: -1
+前腿
+rotate: false
+xy: 1596, 206
+size: 75, 224
+orig: 75, 224
+offset: 0, 0
+index: -1
+发饰01
+rotate: false
+xy: 1574, 8
+size: 48, 122
+orig: 48, 122
+offset: 0, 0
+index: -1
+发饰02
+rotate: false
+xy: 1122, 425
+size: 322, 287
+orig: 322, 287
+offset: 0, 0
+index: -1
+发饰03-1
+rotate: false
+xy: 1089, 294
+size: 30, 51
+orig: 30, 51
+offset: 0, 0
+index: -1
+发饰03-2
+rotate: false
+xy: 1089, 210
+size: 27, 51
+orig: 27, 51
+offset: 0, 0
+index: -1
+发饰03-3
+rotate: false
+xy: 610, 2
+size: 39, 68
+orig: 39, 68
+offset: 0, 0
+index: -1
+发饰03-4
+rotate: false
+xy: 783, 53
+size: 11, 17
+orig: 11, 17
+offset: 0, 0
+index: -1
+发饰04
+rotate: false
+xy: 1624, 15
+size: 43, 115
+orig: 43, 115
+offset: 0, 0
+index: -1
+发饰05
+rotate: false
+xy: 1212, 19
+size: 62, 125
+orig: 62, 125
+offset: 0, 0
+index: -1
+右前臂
+rotate: false
+xy: 651, 10
+size: 78, 60
+orig: 78, 60
+offset: 0, 0
+index: -1
+右后臂
+rotate: false
+xy: 1552, 132
+size: 71, 72
+orig: 71, 72
+offset: 0, 0
+index: -1
+右手
+rotate: false
+xy: 1043, 124
+size: 77, 42
+orig: 77, 42
+offset: 0, 0
+index: -1
+后发01
+rotate: false
+xy: 506, 314
+size: 292, 398
+orig: 292, 398
+offset: 0, 0
+index: -1
+后发02
+rotate: false
+xy: 800, 347
+size: 320, 365
+orig: 320, 365
+offset: 0, 0
+index: -1
+后腿
+rotate: false
+xy: 1396, 74
+size: 154, 178
+orig: 154, 178
+offset: 0, 0
+index: -1
+坠子1
+rotate: false
+xy: 1043, 8
+size: 25, 43
+orig: 25, 43
+offset: 0, 0
+index: -1
+坠子2
+rotate: false
+xy: 1089, 168
+size: 27, 40
+orig: 27, 40
+offset: 0, 0
+index: -1
+左前臂
+rotate: false
+xy: 1043, 53
+size: 73, 69
+orig: 73, 69
+offset: 0, 0
+index: -1
+左后臂
+rotate: false
+xy: 1276, 13
+size: 60, 73
+orig: 60, 73
+offset: 0, 0
+index: -1
+左手
+rotate: false
+xy: 1276, 88
+size: 69, 56
+orig: 69, 56
+offset: 0, 0
+index: -1
+披肩1
+rotate: false
+xy: 1494, 426
+size: 94, 40
+orig: 94, 40
+offset: 0, 0
+index: -1
+披肩2
+rotate: false
+xy: 1396, 15
+size: 176, 57
+orig: 176, 57
+offset: 0, 0
+index: -1
+文件夹37
+rotate: false
+xy: 1348, 254
+size: 246, 169
+orig: 246, 169
+offset: 0, 0
+index: -1
+脸
+rotate: false
+xy: 1446, 468
+size: 209, 244
+orig: 209, 244
+offset: 0, 0
+index: -1
+辫子01
+rotate: false
+xy: 610, 72
+size: 184, 240
+orig: 184, 240
+offset: 0, 0
+index: -1
+辫子02
+rotate: false
+xy: 506, 35
+size: 102, 277
+orig: 102, 277
+offset: 0, 0
+index: -1
