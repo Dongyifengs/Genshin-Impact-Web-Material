@@ -1,0 +1,216 @@
+pop_hutao.png
+size:857,269
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+scale:0.25
+上睫毛L
+rotate: false
+xy: 692, 4
+size: 47, 30
+orig: 47, 30
+offset: 0, 0
+index: -1
+上睫毛R
+rotate: false
+xy: 566, 2
+size: 56, 28
+orig: 56, 28
+offset: 0, 0
+index: -1
+刘海
+rotate: false
+xy: 273, 125
+size: 302, 142
+orig: 302, 142
+offset: 0, 0
+index: -1
+嘴
+rotate: false
+xy: 624, 14
+size: 30, 16
+orig: 30, 16
+offset: 0, 0
+index: -1
+大臂L
+rotate: false
+xy: 95, 50
+size: 66, 44
+orig: 66, 44
+offset: 0, 0
+index: -1
+大臂R
+rotate: false
+xy: 485, 65
+size: 90, 58
+orig: 90, 58
+offset: 0, 0
+index: -1
+头发1
+rotate: false
+xy: 404, 53
+size: 79, 70
+orig: 79, 70
+offset: 0, 0
+index: -1
+头发2
+rotate: false
+xy: 359, 46
+size: 43, 77
+orig: 43, 77
+offset: 0, 0
+index: -1
+帽子
+rotate: false
+xy: 2, 96
+size: 269, 171
+orig: 269, 171
+offset: 0, 0
+index: -1
+帽子_花
+rotate: false
+xy: 577, 32
+size: 86, 93
+orig: 86, 93
+offset: 0, 0
+index: -1
+帽子_饰品
+rotate: false
+xy: 485, 4
+size: 79, 59
+orig: 79, 59
+offset: 0, 0
+index: -1
+帽尾L
+rotate: false
+xy: 163, 58
+size: 61, 36
+orig: 61, 36
+offset: 0, 0
+index: -1
+帽尾R
+rotate: false
+xy: 404, 14
+size: 79, 37
+orig: 79, 37
+offset: 0, 0
+index: -1
+手L
+rotate: false
+xy: 44, 37
+size: 49, 57
+orig: 49, 57
+offset: 0, 0
+index: -1
+手L投影
+rotate: false
+xy: 665, 3
+size: 25, 48
+orig: 25, 48
+offset: 0, 0
+index: -1
+手R
+rotate: false
+xy: 359, 8
+size: 27, 36
+orig: 27, 36
+offset: 0, 0
+index: -1
+手臂L
+rotate: false
+xy: 665, 53
+size: 69, 72
+orig: 69, 72
+offset: 0, 0
+index: -1
+星星
+rotate: false
+xy: 2, 35
+size: 40, 59
+orig: 40, 59
+offset: 0, 0
+index: -1
+眉毛
+rotate: false
+xy: 95, 20
+size: 109, 28
+orig: 109, 28
+offset: 0, 0
+index: -1
+眼白L
+rotate: false
+xy: 206, 21
+size: 45, 35
+orig: 45, 35
+offset: 0, 0
+index: -1
+眼白R
+rotate: false
+xy: 44, 2
+size: 49, 33
+orig: 49, 33
+offset: 0, 0
+index: -1
+瞳孔L
+rotate: false
+xy: 253, 6
+size: 30, 34
+orig: 30, 34
+offset: 0, 0
+index: -1
+瞳孔R
+rotate: false
+xy: 226, 60
+size: 33, 34
+orig: 33, 34
+offset: 0, 0
+index: -1
+脸
+rotate: false
+xy: 577, 127
+size: 163, 140
+orig: 163, 140
+offset: 0, 0
+index: -1
+身体
+rotate: false
+xy: 273, 42
+size: 84, 81
+orig: 84, 81
+offset: 0, 0
+index: -1
+闭眼L
+rotate: false
+xy: 285, 24
+size: 46, 16
+orig: 46, 16
+offset: 0, 0
+index: -1
+闭眼R
+rotate: false
+xy: 692, 36
+size: 48, 15
+orig: 48, 15
+offset: 0, 0
+index: -1
+马尾L
+rotate: false
+xy: 742, 3
+size: 103, 124
+orig: 103, 124
+offset: 0, 0
+index: -1
+马尾R
+rotate: false
+xy: 742, 129
+size: 113, 138
+orig: 113, 138
+offset: 0, 0
+index: -1
+鼻子
+rotate: false
+xy: 847, 125
+size: 2, 2
+orig: 2, 2
+offset: 0, 0
+index: -1
