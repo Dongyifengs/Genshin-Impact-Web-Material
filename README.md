@@ -6,11 +6,8 @@
 
 <div align="center">
     <img alt="GitHub" src="https://img.shields.io/github/license/dongyifengs/mihoyo-material?style=for-the-badge">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/dongyifengs/mihoyo-material/main?style=for-the-badge">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/dongyifengs/mihoyo-material/GameH5">
 </div>
-
-## 通知
- - 目前`剪彩映虹`游戏H5因为本人等级不够的原因下载不了后面的素材文件,所以先上传部分文件,等待后续解锁完成后即可浏览所有素材
  
 
 ## ✨ mihoyo-material是什么项目？
