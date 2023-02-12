@@ -6,7 +6,7 @@
 
 <div align="center">
     <img alt="GitHub" src="https://img.shields.io/github/license/dongyifengs/mihoyo-material?style=for-the-badge">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/dongyifengs/mihoyo-material/GameH5">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/dongyifengs/mihoyo-material/GameH5?style=for-the-badge">
 </div>
  
 
