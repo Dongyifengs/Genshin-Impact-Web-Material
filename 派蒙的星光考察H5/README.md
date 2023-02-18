@@ -1,1 +1,0 @@
- - [派蒙的星光考察[请使用F12调试到手机模式]](https://genshin.1752e.com/ys/1/ys_xgkc_pc/index.html)

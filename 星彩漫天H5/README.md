@@ -1,1 +1,0 @@
- - [派蒙的星光考察[请使用F12调试到手机模式]](https://webstatic.mihoyo.com/ys/event/e20230205-firework-xm7wly/index.html)
