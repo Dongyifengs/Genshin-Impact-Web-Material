@@ -9,6 +9,7 @@
 <body>
     <div>Preview page(先行展示页)</div>
     <div>Trading Web Event(小游戏页面)</div>
-    <div>Windblume's Breath 最新h5页面</div>
+    <div>Windblume's Breath (最新h5页面)</div>
+    <div>Role sharing(角色分享)</div>
 </body>
 </html>
