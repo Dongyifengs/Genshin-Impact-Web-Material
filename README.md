@@ -16,17 +16,6 @@
 ## 💡️ Genshin Impact Web Material该如何使用？
 - ~~由于该项目还在开发中,暂不提供使用方式,只提供开发方法~~
 
-## ✏️ 如何向Genshin Impact Web Material提交代码?
-- 1.Fork`Genshin Impact Web Material`
-- 2.维护代码~
-- 3.请遵守以下提交格式:
-- `🚧 Fix`,`➕ Feat`,`🔨 Refactor`,`📝 Docs`,`✨ Style`,`🍱 Perf`,`🔧 Test`,`⚡️ Chore`,`🐛 Bug`
-- 4.提交到`主仓库`的修改的`相应分支`.
-
-## ✅ 如何发送Issues?
-- 请遵守以下提交格式:
-- `🐛 Bug`,`✨ Style`,`🎨 Proposai`.
-
 ## 👥 本项目开发人员
 - `[Spine文件解析]Mo_Yi`
 - [Dongyifengs 的 GitHub](https://github.com/Dongyifengs)
