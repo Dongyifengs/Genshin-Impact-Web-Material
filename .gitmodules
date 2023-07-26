@@ -1,0 +1,3 @@
+[submodule "v1.0~v1.6"]
+	path = v1.0~v1.6
+	url = https://github.com/Dongyifengs/v1.0-v1.6.git
