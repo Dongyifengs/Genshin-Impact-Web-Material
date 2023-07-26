@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text To Atlas</title>
+</head>
+
+<input name="aaa" id="intext">
+<button onclick="getText()">Atlas解析</button>
+<button onclick="xuanzhuan()">素材旋转</button>
+<div id="outtext"></div>
+
+
+<script>
+    function getText() {
+        // var instr='mengde_p2_youla.png\nsize:618,688\nfilter:Linear,Linear\nscale:0.8\n刘海1\nbounds:520,2,122,99\nrotate:90\n刘海2\nbounds:384,4,48,69\n刘海3\nbounds:183,94,37,73\nrotate:90\n刘海4\nbounds:124,312,133,108\noffsets:0,0,136,108\n刘海5\nbounds:280,426,26,64\n右手\nbounds:243,376,52,135\n嘴\nbounds:96,391,16,12\n图层972\nbounds:369,664,48,24\noffsets:0,0,48,24\n大剑\nbounds:0,420,241,268\n左手\nbounds:0,25,68,136\nrotate:90\n左肩膀\nbounds:369,607,74,81\n披风\nbounds:0,62,239,76\n文件夹19\nbounds:569,177,48,76\n文件夹20\nbounds:0,256,148,164\n特效\nbounds:0,128,618,560\n眉\nbounds:59,404,64,15\n脸\nbounds:243,584,125,104\n腿L上\nbounds:224,6,88,95\noffsets:0,0,101,95\n腿L下\nbounds:243,512,76,71\n腿R\nbounds:293,0,127,175\nrotate:90\n身体\nbounds:457,56,123,143\noffsets:0,0,162,152\nrotate:90\n辫子\nbounds:116,0,56,60\n领带\nbounds:0,123,22,63\n饰品\nbounds:320,552,28,31\n';
+        var instr = String(document.getElementById("intext").value);
+
+        instr = instr.replace(/\\n/g, ";");
+        // console.log(a);
+        //  \n 变分号
+
+        var str2 = instr.split(";");
+        console.log(str2);
+        var outstr;
+        outstr = String(
+            str2[0] +
+            "\n" +
+            str2[1] +
+            "\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n" +
+            str2[3] +
+            "\n"
+        );
+        for (var i = 0; i < str2.length - 1; i++) {
+            if (i < 4) {
+                // outstr+=str2[i];
+            } else {
+                // if((i-3)%3==2){
+                //     var outbounds;
+                //     outbounds=str2[i];
+                //     console.log(outbounds);
+
+                // }
+                console.log(i);
+
+                if (str2[i].indexOf("bounds:") > -1) {
+                    str2[i] = str2[i].substring(7, str2[i].length);
+                    // console.log(str2[i]);
+                    var str2Cont = str2[i].split(",");
+                    console.log(str2Cont);
+                    var istrue;
+                    istrue = "false";
+                    istruenum = i;
+                    //   istruenum 防止i+2超出边界
+                    if (i + 2 == str2.length) {
+                        istruenum = i - 2;
+                    }
+                    if (
+                        str2[i + 1].indexOf("rotate:90") != -1 ||
+                        str2[i + 1].indexOf("rotate:270") != -1
+                    ) {
+                        istrue = "true";
+                    } else if (
+                        str2[istruenum + 2].indexOf("rotate:90") != -1 ||
+                        str2[istruenum + 2].indexOf("rotate:270") != -1
+                    ) {
+                        istrue = "true";
+                    } else if (
+                        str2[i + 1].indexOf("rotate:180") != -1 ||
+                        str2[istruenum + 2].indexOf("rotate:180") != -1
+                    ) {
+                        istrue = "false";
+                    }
+                    console.log(i);
+                    outstr += String(
+                        "  rotate: " +
+                        istrue +
+                        " \n  xy: " +
+                        str2Cont[0] +
+                        ", " +
+                        str2Cont[1] +
+                        "\n  size: " +
+                        str2Cont[2] +
+                        ", " +
+                        str2Cont[3] +
+                        "\n  orig: " +
+                        str2Cont[2] +
+                        ", " +
+                        str2Cont[3] +
+                        "\n  offset: 0, 0\n  index: -1\n"
+                    );
+                } else if (str2[i].indexOf("offsets:") > -1) {
+                } else if (str2[i].indexOf("rotate:") > -1) {
+                } else {
+                    outstr += String(str2[i] + "\n");
+                }
+            }
+        }
+        console.log(outstr);
+        document.getElementById("outtext").innerText = outstr;
+    }
+    function xuanzhuan() {
+        var instr = String(document.getElementById("intext").value);
+
+        instr = instr.replace(/\\n/g, ";");
+        // console.log(a);
+        //  \n 变分号
+
+        var str2 = instr.split(";");
+        // console.log(str2);
+        var outstr = "以下图可能需要片翻转180度:\n";
+        for (var i = 0; i < str2.length - 1; i++) {
+            if (i < 4) {
+            } else {
+                if (str2[i].indexOf("bounds:") > -1) {
+                    var istruenum = i;
+                    //   istruenum 防止i+2超出边界
+                    if (i + 2 == str2.length) {
+                        istruenum = i - 2;
+                    }
+
+                    console.log(istruenum);
+
+                    if (
+                        str2[istruenum + 2].indexOf("rotate:180") != -1 ||
+                        str2[istruenum + 2].indexOf("rotate:270") != -1
+                    ) {
+                        outstr += String(str2[i - 1] + "\n");
+                        console.log("b");
+                    } else if (
+                        str2[i + 1].indexOf("rotate:180") != -1 ||
+                        str2[i + 1].indexOf("rotate:270") != -1
+                    ) {
+                        if (str2[i].indexOf("offsets") != -1) {
+                        } else {
+                            outstr += String(str2[i - 1] + "\n");
+                            console.log("a");
+                        }
+                    } else {
+                    }
+                    console.log(i);
+                }
+            }
+        }
+        console.log(outstr);
+        document.getElementById("outtext").innerText = outstr;
+    }
+    function copyText() {
+        var text = document.getElementById("outtext").innerText;
+        var input = document.getElementById("input");
+        input.value = text; // 修改文本框的内容
+        input.select(); // 选中文本
+        document.execCommand("copy"); // 执行浏览器复制命令
+        alert("复制成功");
+    }
+</script>
