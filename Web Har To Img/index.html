@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>原神网页小活动资源批量下载</title>
+    <meta name="referrer" content="no-referrer" />
+    <link rel="shortcut icon" href="./static/favicon.ico"/>
+    <link rel="stylesheet" href="./static/normalize.min.css">
+    <link rel="stylesheet" href="./static/element-plus.min.css" />
+    <link rel="stylesheet" href="./static/index.css">
+</head>
+<body id="app">
+    <div class="wrap">
+        <el-container>
+            <el-header height="200">
+                <div class="top">
+                    <h1>原神网页小活动图片资源批量下载工具 <sup>V1.0</sup></h1>
+                </div>
+                <div class="actions">
+                    <el-upload
+                    ref="uploadRef"
+                        :auto-upload="false"
+                        :on-change="handleChange"
+                        :on-remove="handleRemove"
+                        :limit="1"
+                    >
+                        <el-button type="primary">上传Har文件</el-button>
+                    </el-upload>
+                    <el-button type="success" @click="downloadZip" v-if="active">打包下载</el-button>
+                </div>
+            </el-header>
+            <el-main>
+                <div class="main">
+                    <el-table
+                        :data="list"
+                        style="width: 100%"
+                        :height="tableHeight"
+                        empty-text="请上传Har文件"
+                        :default-sort="{ prop: 'name', order: 'ascending' }"
+                    >
+                        <el-table-column label="图片" :align="center">
+                            <template #default="scope">
+                                <el-image
+                                    style="width: 100px; height: 100px"
+                                    :src="scope.row.url"
+                                    fit="contain"
+                                />
+                            </template>
+                        </el-table-column>
+                        <el-table-column prop="name" label="名称" sortable :align="center">
+                        </el-table-column>
+                        <el-table-column prop="size" label="文件大小" sortable :align="center">
+                            <template #default="scope">
+                                {{ filesize(scope.row.size) }}
+                            </template>
+                        </el-table-column>
+                        <el-table-column label="操作" :align="center">
+                            <template #default="scope">
+                                <el-link type="primary" :underline="false" :href="scope.row.url" target="_blank">预览</el-link>
+                                <el-link type="success" :underline="false" @click="downloadSingle(scope.row.url, scope.row.name)">下载</el-link>
+                            </template>
+                        </el-table-column>
+                    </el-table>
+                </div>
+            </el-main>
+        </el-container>
+    </div>
+</body>
+</html>
+<script src="./static/vue.global.min.js"></script>
+<script src="./static/element-plus.min.js"></script>
+<script src="./static/jszip.min.js"></script>
+<script src="./static/FileSaver.js"></script>
+<script src="./static/index.js"></script>
